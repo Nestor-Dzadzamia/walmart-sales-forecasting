@@ -1,25 +1,22 @@
-# Data
 *.csv
 *.csv.zip
 *.zip
 data/
 
-# Experiment tracking
 mlruns/
 wandb/
 mlartifacts/
 
-# Models & checkpoints
 *.ckpt
 *.pt
 *.pkl
 lightning_logs/
 
-# Notebooks checkpoints
 .ipynb_checkpoints/
 
-# Env
 .env
 kaggle.json
 __pycache__/
 *.pyc
+
+.DS_Store
